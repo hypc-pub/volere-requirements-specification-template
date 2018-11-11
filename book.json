@@ -1,0 +1,22 @@
+{
+    "title": "Volere需求规格说明书模板",
+    "description": "",
+    "author": "hypc",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hypc-pub/volere-requirements-specification-template"
+    },
+    "plugins": [
+        "theme-opendocs", "advanced-emoji",
+        "ace", "codeblock-label",
+        "simpletabs",
+        "include",
+        "katex",
+        "-highlight", "prism",
+        "-lunr", "-search", "search-pro",
+        "-sharing",
+        "-fontsettings"
+    ],
+    "gitbook": ">=3.0.0",
+    "pluginsConfig": {}
+}

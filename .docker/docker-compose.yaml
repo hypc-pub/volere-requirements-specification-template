@@ -1,0 +1,11 @@
+version: "2"
+services:
+    master:
+        build:
+            context: ..
+            dockerfile: .docker/Dockerfile
+        image: volere-requirements-specification-template
+        container_name: volere-requirements-specification-template
+        ports:
+            - 4070:4000
+        restart: always
